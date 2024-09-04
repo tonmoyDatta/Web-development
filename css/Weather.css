@@ -1,0 +1,44 @@
+.weather {
+  background-image: linear-gradient(
+    90deg,
+    rgba(96, 101, 69, 1),
+    rgba(219, 213, 164, 1) 100%
+  );
+}
+
+.today {
+  width: 100%;
+  padding-top: 30px;
+  height: 170px;
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/1321474586/vector/blue-sky-with-altostratus-clouds-background-vector-cartoon-sky-with-cirrus-clouds-concept.jpg?s=612x612&w=0&k=20&c=9uieuL0ETesVKHLAewR8xFrW3l5vr4gkzsVnFNpJUz0=");
+  /* background-image: url("/resource/bgweather.jpg"); */
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: rgba(219, 213, 164, 1);
+  text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black,
+    0px -1px 0px black;
+}
+table {
+  width: 100%;
+  padding-left: auto;
+  position: center;
+}
+
+tr,
+td {
+  width: 50%;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid #888;
+}
+h4 {
+  color: aliceblue;
+}
+h6 {
+  color: #000000;
+}
+h4.degree {
+  color: tomato;
+}

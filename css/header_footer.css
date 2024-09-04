@@ -1,0 +1,48 @@
+* {
+  font-family: "Maven Pro", "Gill Sans", "Gill Sans MT", "Calibri",
+    "Trebuchet MS", "sans-serif";
+  /* font-family: 'Maven Pro'; */
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.main_title {
+  padding: 15px;
+  background-color: #606545;
+  color: aliceblue;
+  text-align: center;
+  font-size: 250%;
+  font-family:"Gill Sans", "Gill Sans MT", "Calibri",
+  "Trebuchet MS", "sans-serif";
+}
+nav,
+footer {
+  background: #333;
+  overflow: hidden;
+  text-align: center;
+}
+
+footer a,
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  float: left;
+  font-size: 1.05em;
+}
+
+footer a:hover,
+nav a:hover {
+  color: tomato;
+  font-weight: 500;
+}
+
+.current {
+  color: rgb(166, 244, 215);
+}

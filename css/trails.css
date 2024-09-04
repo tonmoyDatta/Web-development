@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  background-image: linear-gradient(
+    90deg,
+    rgba(96, 101, 69, 1),
+    rgba(219, 213, 164, 1) 100%
+  );
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.box {
+  max-width: 800px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  width: 100%;
+  max-height: 250px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(197, 247, 255, 0.482) 100%
+  );
+}
+@media screen and (max-width: 700px) {
+  .item {
+    display: grid;
+    max-height: 500px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+.item img {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 250px;
+  max-width: 300px;
+}
+
+.item .text {
+  padding: 10px;
+  text-align: center;
+}
+
+.text h3 {
+  color: blueviolet;
+  text-shadow: 1px 0px 0px black;
+  padding-bottom: 10px;
+}
+
+.text .atr {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0px 0px whitesmoke, 0px 1px 0px whitesmoke;
+}
+
+.text .date {
+  text-align: right;
+  color: tomato;
+  padding: 5px;
+}
+
+.text .price {
+  font-size: small;
+  border: 1px solid black;
+  justify-self: center;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  background: green;
+  color: white;
+  text-shadow: 1px 0px 0px rgb(0, 0, 0);
+}
+
+button {
+  font-size: medium;
+  border: 1px solid black;
+  position: static;
+  bottom: 0px;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px;
+  background: rgba(0, 128, 0, 0.6);
+  color: black;
+  font-weight: 600;
+}
+
+button:hover{
+    background: rgba(0, 128, 0, 0.8);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

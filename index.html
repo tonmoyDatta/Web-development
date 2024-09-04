@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NatureWander | Home</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Maven+Pro"
+    />
+    <link rel="stylesheet" href="css/header_footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main_title">NatureWander</div>
+    </header>
+    <nav>
+      <a class="current" href="#">Home</a>
+      <a href="trails.html">Trails & Activities</a>
+      <a href="camping.html">Camping Spots</a>
+      <a href="blog.html">Blog & Resources</a>
+      <a href="weather.html">Weather Forecast</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="welcome">
+      <h1>Welcome to <span class="name">NatureWander</span></h1>
+      <p>Your Guide to Exploring the Outdoors</p>
+    </section>
+    <hr />
+
+    <section class="from">
+      <h2>Plan Your Trip Now</h2>
+      <p>
+        Feel free to call us directly or simply complete our form below and we
+        will follow up with you.
+      </p>
+      <form action="#">
+
+        <input
+          type="text" placeholder="Your Name" name="name" required/>
+        <input type="email" placeholder="Email" />
+        <h5>Start Date: </h5><input type="date" required/>
+        <h5>End Date: </h5><input type="date"/>
+
+        <select name="country" required>
+          <option value="#">__Select Country__</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="India">India</option>
+          <option value="Nepal">Nepal</option>
+        </select>
+
+        <input type="number" id="half" placeholder="No of Person" />
+        <input class="last" id="half" type="text" maxlength="11" pattern="[0-9]" placeholder="Contact no" required/>
+        <textarea name="massage" id="" cols="5" rows="5" placeholder="What plan in your mind about your travel!!" ></textarea>
+        <input type="submit" value="Confirm" />
+        <input class="last" type="reset" />
+      </form>
+    </section>
+
+    <hr>
+
+    <section class="time">
+          <h2>Best Time To Visit</h2>
+          <div class="box">
+          <div class="item" id="id1">
+              <h3>Summer</h3>
+              <img src="https://www.penchnationalpark.com/wp-content/themes/pench/images/summer.png" alt="">
+              <!-- <img src="/resource/summer.png" alt="Summer"> -->
+              <br><p class="month">28° To 45° <br> Mar, Apr, May Jun</p><br>
+              <p class="text">The months of summer are all about hot and humid weather conditions the sometimes make difficult for tourists to explore the wildlife to its full. However, despite the hot weather, a large number of wildlife buffs still visit the park during this time.</p>
+          </div>
+
+          <div class="item" id="id2">
+              <h3>Winter</h3>
+              <img src="https://www.penchnationalpark.com/wp-content/themes/pench/images/winter.png" alt="">
+              <!-- <img src="/resource/winter.png" alt="Winter"> -->
+              <br><p class="month">10° To 28° <br> Nov, Dec, Jan, Feb</p><br>
+              <p class="text">Winter is the best season to visit Pench National Park due to the pleasant weather conditions. During this time, the park receives a cool temperature that makes it easy for tourists to explore the region without getting exhausted from the sweltering heat.</p>    
+          </div>
+
+          <div class="item" id="id3">
+            <h3>Monsoon</h3>
+            <img src="https://www.penchnationalpark.com/wp-content/themes/pench/images/monsoon.png" alt="">
+            <!-- <img src="/resource/monsoon.png" alt="Monsoon"> -->
+            <br><p class="month">23° To 34° <br> Jul, Aug, Sep</p><br>
+            <p class="text">Not at all an ideal season to visit Pench National Park, monsoon received a considerable amount of rainfall in the region. Monsoon is the breeding season of the wild animals, and hence, the park remains closed till mid-October.</p>    
+          </div>
+        </div>
+    </section>
+
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">&copy; 2023 | NatureWander</a>
+    </footer>
+  </body>
+</html>
